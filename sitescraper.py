@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import re
 import os
 
-HOST = "https://phenocam.sr.unh.edu/"
-SITE = "/webcam/browse/willamettepoplar/"
+HOST = #reference envrionment var here
+
 
 def main():
         file = open("./sitesrevised", "r")
