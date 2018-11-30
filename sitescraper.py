@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import re
 import os
 
-HOST = #reference envrionment var here
+#HOST = reference envrionment var here
 
 
 def main():

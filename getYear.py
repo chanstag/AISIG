@@ -4,7 +4,7 @@ import urllib.request as urllib
 from html.parser import HTMLParser
 from bs4 import BeautifulSoup
 
-HOST = "https://phenocam.sr.unh.edu"
+#HOST = reference environ var
 def main():
     with open('./sitesrevised', 'r') as file:
         browseList = file.read().split(',').trim('\n')
